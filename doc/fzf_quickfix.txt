@@ -1,0 +1,62 @@
+*fzf_quickfix.txt*
+
+Author: Filip Szymański <fszymanski.pl@gmail.com>
+
+==============================================================================
+CONTENTS                                               *fzf-quickfix-contents*
+
+  1. Introduction                                 |fzf-quickfix-introduction|
+  2. Configuration                                |fzf-quickfix-configuration|
+  3. Commands                                     |fzf-quickfix-commands|
+  4. License                                      |fzf-quickfix-license|
+  5. Bugs                                         |fzf-quickfix-bugs|
+  6. Contributing                                 |fzf-quickfix-contributing|
+
+==============================================================================
+INTRODUCTION                                       *fzf-quickfix-introduction*
+
+
+
+==============================================================================
+CONFIGURATION                                     *fzf-quickfix-configuration*
+
+                                                    *g:fzf_quickfix_syntax_on*
+Set this option to `0` if you want to disable the syntax highlighting.
+>
+  let g:fzf_quickfix_syntax_on = 0
+<
+Type: |Number|
+Default: `1`
+
+==============================================================================
+COMMANDS                                               *fzf-quickfix-commands*
+
+                                                                    *Quickfix*
+Open a quickfix list or a location list (if [!] is given).
+>
+  :Quickfix[!]
+<
+
+==============================================================================
+LICENSE                                                 *fzf-quickfix-license*
+
+MIT
+
+==============================================================================
+BUGS                                                       *fzf-quickfix-bugs*
+
+If you find a bug please create an issue on GitHub.
+
+https://github.com/fszymanski/fzf-quickfix/issues
+
+==============================================================================
+CONTRIBUTING                                       *fzf-quickfix-contributing*
+
+Think you can make this plugin better? Awesome. Fork it on GitHub and create
+a pull request.
+
+https://github.com/fszymanski/fzf-quickfix
+
+==============================================================================
+
+ vim: tw=78 ts=8 noet ft=help norl
